@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <!--
+  This file is an HTML file. It holds all of the structure of your website.
+  Editing this file directly will change the content of your page.
+  All of your page's content has to be put inside the <html> tags.
+-->
+<html>
+  
+  <!-- 
+    The <head> tag holds metadata about your site.
+  -->
+  <head>
+    <!--
+      This is the title of the page, it shows up in the tab.
+      **********Change this to your name!**********
+    -->
+    <title>Christina Kayastha</title>
+    
+    <!--
+      This tag links the css stylesheet to this html page.
+      The stylesheet contains all the information about styling your website
+      such as colors, fonts, and size of elements.
+    -->
+    <link rel="stylesheet" type="text/css" href="style
+    .css">
+  </head>
+  
+  <!--
+    The <body> tag holds all of the content of your website.  
+  -->
+  <body>
+    
+    <!--
+      The <header> tag holds everything that you want to go at the top header of your page
+    -->
+    <header>
+      <!--
+        The <h1> tag is the 1st biggest heading tag.
+        **********Change this to your name!**********
+      -->
+      <h1>Christina Kayastha</h1>
+
+      <!--
+        The <h2> tag is the 2nd biggest heading tag.
+        ********************
+      -->
+      <h2>...loves ice cream, playing games, and writing code!!</h2>
+    </header>
+    
+    <!--
+      The <main> tag hold the main content of this page
+    -->
+    <main>
+      
+      <!--
+        A <div> tag is like a box. You can put whatever you want here.
+        You can give any html tag a class label. The class is what the .css (stylesheet) file uses to add styles.
+      -->
+      <div class="speech">
+        <!--
+          The <img> tag allows you to add any image to the page
+          **********Change this to a photo of yourself, or a robot**********
+        -->
+        <img src="https://robohash.org/yo">
+        <div class="bubble">
+            <!--
+                **********Change the contents of this speech bubble**********
+            -->
+          Welcome to my page! You can read all about me here :D
+        </div>
+      </div>
+      
+      <div>
+        <!--
+          This is a paragraph tag. Change the content here to be whatever you like!
+        -->
+        <p>
+          Hello World! I'm Christina! I work at Vistaprint and have been working here for almost 3 years.
+          Before Vistaprint I went to the University of Rochester.
+        </p>
+        <p>
+           My favorite sport is Volleyball. I don't have any pets, but when I was younger I used to have a dog.
+        </p>
+      </div>      
+      <!-- 
+        Can you figure out wha the code below is doing?
+        **********Add whatever you want to the section below!**********
+      -->
+      <div class="columns">
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Ice_cream_cone.jpg">
+          <div>
+            <h3> Ice Cream </h3>
+            My favorite food is ice cream! I could eat ice cream for breakfast, lunch and dinner and not get sick of it!
+          </div>
+        </div>
+        <div>
+          <img src="https://c1.staticflickr.com/9/8740/28323652213_d71137983f_b.jpg">
+          <div>
+            <h3> Playing games </h3>
+            I love playing all sorts of games. My favorite game is Sonic the hedgehog!
+          </div>
+        </div>
+        <div>
+           <img src="https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg">
+          <div>
+            <h3> Coding </h3>
+            I really enjoy programming and writing code. It's so much fun to be able to make a website, an app or a game :D
+          </div>
+        </div>
+      </div>
+      
+      <!-- Done already? Here are some challenges!! -->
+        
+        <!-- YouTube -->
+        <!-- Add your favorite youtube video to your site: https://support.google.com/youtube/answer/171780-->
+      
+        <!-- Twitter -->
+        <!-- Use this link to embed your(or your favorite) twitter feed: https://publish.twitter.com/ -->
+              
+        <!-- Facebook -->
+        <!-- Add a like fb button to your page: https://developers.facebook.com/docs/plugins/like-button -->
+    </main>
+    
+    <!--
+      The <footer> tag holds content that goes at the bottom footer of your page
+    -->
+    <footer>
+      Hope you liked my page! Follow me at:
+        <!--
+          The <a> tag is a way to link to an external website
+        -->
+        <a href="www.twitter.com/christikaes">@christikaes</a>
+        <a href="www.facebook.com/christikaes">christikaes</a>
+        <a href="www.instagram.com/christikaes">christikaes</a>
+    </footer>
+    
+  </body>
+</html>
+  </body>
+
+</html>/****** 
+  This is a .css file. CSS stands for Cascading Style Sheets.
+  This file has all of the information about the styling of the website.
+  You can edit this file to change the apparance of your page.
+  
+  Play around with:
+  * [Colors] This file has a bunch of HEX colors, you can see more colors here: https://www.materialui.co/colors
+  * [Size] You can change the width and height of different elements and see what happens.
+  * [Font] Try and change the font-family to something different: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+******/
+
+/****** <body> ******/
+body {
+  width: 900px;
+  background: #03A9F4;
+  margin: 50px auto;
+  border: 10px solid #000000;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+/****** <header> ******/
+header {
+  padding: 10px;
+  background: #0D47A1;
+  color: #E3F2FD;
+}
+
+/****** <main> ******/
+main {
+  background: #E3F2FD;
+}
+
+/****** <footer> ******/
+footer {
+  padding: 10px;
+  background: #0D47A1;
+  color: #E3F2FD;
+}
+
+/****** <a> ******/
+a {
+  color: lightblue;
+}
+
+/****** class=speech ******/
+.speech {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.speech img {
+  background: #FFFFFF;
+  border-radius: 50%; /* This makes it a circle */
+  border: 5px solid #000000;
+  height: 300px;
+}
+
+/****** class=columns ******/
+.columns {
+  display: flex;
+}
+
+.columns div img {
+  background: #FFFFFF;
+  border-radius: 40px;
+  width: 275px;
+  height: 200px;
+}
+
+.columns div div {
+  margin: 10px;
+}
+
+/****** Speech Bubble ******/
+.bubble {
+  position: relative;
+  width: 300px;
+  min-height: 100px;
+  font-size: 20px;
+  
+  padding: 10px;
+  border-radius: 5px;
+  border: solid #3F51B5;
+  background: #3F51B5;
+  color: #E8EAF6;
+}
+
+.bubble:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  
+  border-top: 20px solid transparent;
+  border-right: 30px solid #3F51B5;
+  border-bottom: 30px solid transparent;
+}
+
+/****** 
+  Done already?
+  
+  Here are some challenges:
+  * Change the background of your body to be an image
+  * Change some colors when the mouse hovers over something (hint: :hover)
+  * Check out some transition animations (you can combine this with hover)
+******/
